@@ -30,15 +30,15 @@ RAG 没有消失，但「切块 → 向量 → top-k」已经不是讨论中心�
 
 ## 趋势一：决策模型进入检索链路
 
-决策模型（decision model）这里取窄义：基于 transformer，但不生成长文本，只回答选择、打分、是或否，并给出校准过的概率，延迟往往在百毫秒级。2026 年 9 月 TypeSafe AI 发布 Jev 之后，这个品类开始被单独讨论。
+[[决策模型检索|决策模型]]（decision model）这里取窄义：基于 transformer，但不生成长文本，只回答选择、打分、是或否，并给出校准过的概率，延迟往往在百毫秒级。2026 年 9 月 TypeSafe AI 发布 Jev 之后，这个品类开始被单独讨论。
 
-它在检索里的用法包括：路由、重排、过滤，甚至沿着目录从主题走到段落。较激进的做法是 [DecisionRAG](https://arxiv.org/abs/2610.35868)（Retriever-Free Retrieval）：不做传统的第一阶段检索器，让决策模型在文档结构里导航。论文报告在 Natural Questions 上 Hit@1 高于「稠密检索 + 8B 重排」的设定，单次大约 0.7 到 1.8 秒。这些数字来自论文，第三方复现仍少；Jev 本身是托管接口。更稳妥的试验顺序是先把它放在「重排和过滤」这一步，而不是整条链路替换。
+它在检索里的用法包括：路由、重排、过滤，甚至沿着目录从主题走到段落。较激进的做法是 [[DecisionRAG]]（[论文](https://arxiv.org/abs/2610.35868)，Retriever-Free Retrieval）：不做传统的第一阶段检索器，让决策模型在文档结构里导航。论文报告在 Natural Questions 上 Hit@1 高于「稠密检索 + 8B 重排」的设定，单次大约 0.7 到 1.8 秒。这些数字来自论文，第三方复现仍少；Jev 本身是托管接口。更稳妥的试验顺序是先把它放在「重排和过滤」这一步，而不是整条链路替换。
 
 ## 趋势二：朴素检索作为记忆基线
 
-过去一年出现过不少把对话改写成事实条目的 agent 记忆层。2026 年 10 月的 [RAW-RAG](https://arxiv.org/abs/2610.30755) 和 [Memory Tax](https://arxiv.org/abs/2610.34073) 给出一个反向结果：直接对原始记录做检索再重排，多数设置里不弱于更复杂的记忆系统，建造索引也更便宜。一个常见解释是，改写会丢掉或扭曲事实之间的关联。
+过去一年出现过不少把对话改写成事实条目的 agent 记忆层。2026 年 10 月的 [[RAW-RAG]]（[论文](https://arxiv.org/abs/2610.30755)）和 [[Memory-Tax]]（[论文](https://arxiv.org/abs/2610.34073)） 给出一个反向结果：直接对原始记录做检索再重排，多数设置里不弱于更复杂的记忆系统，建造索引也更便宜。一个常见解释是，改写会丢掉或扭曲事实之间的关联。
 
-实用含义很直接：给 agent 加记忆层之前，先跑「原始材料 + 检索 + 重排」这条基线。agent 记忆本质上仍是检索问题。这也和 [[企业知识库开源选型]] 里「先分清问答层和记忆层」是同一件事。
+实用含义很直接：给 agent 加记忆层之前，先跑「原始材料 + 检索 + 重排」这条基线。agent 记忆本质上仍是检索问题。这也和 [[企业知识库开源选型]]、[[Agent记忆与聊天记录工具]] 里「先分清问答层和记忆层」是同一件事。
 
 ## 趋势三：检索变成 agent 的工具
 
@@ -48,7 +48,7 @@ RAG 没有消失，但「切块 → 向量 → top-k」已经不是讨论中心�
 
 ## 趋势四：代码检索是 grep 打底、结构补位
 
-[Harness Engineering](https://arxiv.org/abs/2609.00006) 对多个编码 agent 的源码做了剖析，观察到代码搜索普遍以 ripgrep、glob、tree-sitter 和 Markdown 上下文文件为主，而不是先上向量库。社区补的方向主要是：把代码库做成可查询的结构图，或在 grep 之外加一层语义判断。
+[[Harness-Engineering]]（[论文](https://arxiv.org/abs/2609.00006)）对多个编码 agent 的源码做了剖析，观察到代码搜索普遍以 ripgrep、glob、tree-sitter 和 Markdown 上下文文件为主，而不是先上向量库。社区补的方向主要是：把代码库做成可查询的结构图，或在 grep 之外加一层语义判断。
 
 结论可以记成：grep 是地板，不是天花板。代码已经自带路径、符号和引用关系，「结构 + grep」通常比「纯向量」更受欢迎；语义检索更适合「知道行为、不知道在哪」的情况。这和 [[Harness]]、[[AGENTS-md|AGENTS.md]] 的工程实践是一致的。
 
@@ -60,10 +60,10 @@ RAG 没有消失，但「切块 → 向量 → top-k」已经不是讨论中心�
 
 ## 值得读的公开材料
 
-- [DecisionRAG](https://arxiv.org/abs/2610.35868)
-- [RAW-RAG](https://arxiv.org/abs/2610.30755)
-- [Memory Tax](https://arxiv.org/abs/2610.34073)
-- [Harness Engineering](https://arxiv.org/abs/2609.00006)
+- [[DecisionRAG]]（[arXiv](https://arxiv.org/abs/2610.35868)）
+- [[RAW-RAG]]（[arXiv](https://arxiv.org/abs/2610.30755)）
+- [[Memory-Tax]]（[arXiv](https://arxiv.org/abs/2610.34073)）
+- [[Harness-Engineering]]（[arXiv](https://arxiv.org/abs/2609.00006)）
 - [FLINT](https://arxiv.org/abs/2610.27273)
 - [Multi-Vector Embedding Models with Sentence Transformers](https://huggingface.co/blog/multi-vector-encoder)
 - [How Jev can help improve the efficiency of RAG pipelines](https://www.thoughtworks.com/en-us/insights/blog/generative-ai/how-jev-can-help-improve-the-efficiency-of-rag-pipelines)（Thoughtworks）

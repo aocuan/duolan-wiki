@@ -13,6 +13,8 @@ publish: true
 - [[Harness]]：模型外面那套工位
 - [[AGENTS-md|AGENTS.md]]：给 agent 的仓库入职手册
 - [[Skills]]：按需加载的专项说明
+- [[ACP]]：控制面和编码 agent 之间的插头
+- [[Harness-Engineering]]：编码 agent 源码里的构成
 
 ## 综述
 

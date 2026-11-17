@@ -11,6 +11,9 @@ publish: true
 - [[Harness]]
 - [[AGENTS-md|AGENTS.md]]
 - [[Skills]]
+- [[ACP]]
 - [[操作本体]]
+- [[决策模型检索]]
+- [[LLM知识库]]
 
-主题入口见 [[indexes/index|索引]]。
+主题入口见 [[indexes/概念]]。

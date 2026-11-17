@@ -9,5 +9,6 @@ publish: true
 检索增强、重排序、agentic search 以及相关概念。
 
 - [[RAG与检索手段]]
+- [[决策模型检索]]
 
 总入口见 [[indexes/RAG检索]]。
