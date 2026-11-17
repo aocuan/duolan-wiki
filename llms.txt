@@ -1,0 +1,19 @@
+# duolan-wiki
+
+> duolan 的公开个人知识库。笔记是 Markdown，支持 Obsidian 双链。
+
+仓库：https://github.com/aocuan/duolan-wiki
+
+本地用 Obsidian 编写。站点发布暂缓，以后如需自己托管，再用 Quartz 生成网站。写作约定见 AGENTS.md。不要读取或提交 `private/`。
+
+## 入口
+
+- [首页](https://github.com/aocuan/duolan-wiki/blob/v5/content/index.md)：这个知识库是什么，以及写作约定
+- [索引](https://github.com/aocuan/duolan-wiki/blob/v5/content/indexes/index.md)：主题索引和 MOC
+- [笔记](https://github.com/aocuan/duolan-wiki/blob/v5/content/notes/index.md)：自己写的笔记
+- [来源](https://github.com/aocuan/duolan-wiki/blob/v5/content/sources/index.md)：摘录、引用和外部资料
+- [给 AI 的约定](https://github.com/aocuan/duolan-wiki/blob/v5/AGENTS.md)：目录、公开范围，以及如何阅读和写入
+
+## Optional
+
+- [仓库说明](https://github.com/aocuan/duolan-wiki/blob/v5/README.md)：技术栈和本地设置步骤

@@ -6,6 +6,7 @@ prof
 tsconfig.tsbuildinfo
 .obsidian
 .quartz-cache
+# 日记等私密内容，不提交、不发布
 private/
 .replit
 replit.nix
