@@ -11,7 +11,7 @@ publish: true
 ## 目录
 
 - [[notes/index|笔记]]：按主题分类的常青笔记
-  - [[notes/概念/index|概念]]、[[notes/开源项目/index|开源项目]]、[[notes/agent工程/index|Agent 工程]]、[[notes/skills/index|Skills]]、[[notes/rag/index|RAG 与检索]]、[[notes/企业知识/index|企业知识]]、[[notes/论文/index|论文]]、[[notes/趋势/index|趋势]]
+  - [[notes/概念/index|概念]]、[[notes/品类/index|品类]]、[[notes/开源项目/index|开源项目]]、[[notes/agent工程/index|Agent 工程]]、[[notes/skills/index|Skills]]、[[notes/rag/index|RAG 与检索]]、[[notes/企业知识/index|企业知识]]、[[notes/论文/index|论文]]、[[notes/趋势/index|趋势]]
 - [[sources/index|来源]]：摘录、引用和外部资料
 - [[indexes/index|索引]]：主题索引和 MOC
 

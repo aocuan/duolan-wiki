@@ -12,8 +12,8 @@ duolan-wiki 是一套公开的个人知识库。本地用 Obsidian 写，这个�
 
 ```
 content/index.md         首页
-content/notes/           按主题分类的笔记
-  概念/ 开源项目/ agent工程/ skills/
+content/notes/           按职责分类的笔记
+  概念/ 品类/ 开源项目/ agent工程/ skills/
   rag/ 企业知识/ 论文/ 趋势/
 content/sources/         摘录、引用和外部资料
 content/indexes/         主题索引和 MOC

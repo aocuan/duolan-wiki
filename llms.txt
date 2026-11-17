@@ -10,11 +10,13 @@
 
 - [首页](https://github.com/aocuan/duolan-wiki/blob/v5/content/index.md)：这个知识库是什么，以及写作约定
 - [索引](https://github.com/aocuan/duolan-wiki/blob/v5/content/indexes/index.md)：主题索引和 MOC
+  - [概念](https://github.com/aocuan/duolan-wiki/blob/v5/content/indexes/概念.md)
+  - [品类](https://github.com/aocuan/duolan-wiki/blob/v5/content/indexes/品类.md)
+  - [开源项目](https://github.com/aocuan/duolan-wiki/blob/v5/content/indexes/开源项目.md)
   - [Agent 工程](https://github.com/aocuan/duolan-wiki/blob/v5/content/indexes/Agent工程.md)
   - [Skills](https://github.com/aocuan/duolan-wiki/blob/v5/content/indexes/Skills.md)
   - [RAG 与检索](https://github.com/aocuan/duolan-wiki/blob/v5/content/indexes/RAG检索.md)
   - [企业知识与本体](https://github.com/aocuan/duolan-wiki/blob/v5/content/indexes/企业知识与本体.md)
-  - [开源项目](https://github.com/aocuan/duolan-wiki/blob/v5/content/indexes/开源项目.md)
   - [论文](https://github.com/aocuan/duolan-wiki/blob/v5/content/indexes/论文.md)
 - [笔记](https://github.com/aocuan/duolan-wiki/blob/v5/content/notes/index.md)：按主题分类的常青笔记
 - [来源](https://github.com/aocuan/duolan-wiki/blob/v5/content/sources/index.md)：摘录、引用和外部资料
