@@ -14,5 +14,8 @@ publish: true
 - [[RAW-RAG]]
 - [[Memory-Tax]]
 - [[Harness-Engineering]]
+- [[Symbolic-Separation]]
+- [[EvoOntology]]
+- [[ContrAgent]]
 
 总入口见 [[indexes/论文]]。

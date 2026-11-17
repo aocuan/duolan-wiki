@@ -14,6 +14,9 @@ publish: true
 - [RAW-RAG](https://arxiv.org/abs/2610.30755)
 - [Memory Tax](https://arxiv.org/abs/2610.34073)
 - [Harness Engineering](https://arxiv.org/abs/2609.00006)
+- [Symbolic Separation](https://arxiv.org/abs/2609.17107)
+- [EvoOntology](https://arxiv.org/abs/2609.15779)
+- [ContrAgent](https://arxiv.org/abs/2609.18128)
 - [LightRAG](https://arxiv.org/abs/2410.05779)
 
 回到 [[sources/index|来源]]。

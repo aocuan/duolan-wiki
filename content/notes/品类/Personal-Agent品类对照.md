@@ -26,8 +26,8 @@ publish: true
 
 | 品类 | 它真正做的事 | 例子 |
 |---|---|---|
-| 个人助手 / 网关 | 自己跑一个入口，把助手接到聊天渠道、文件和工具上 | [[OpenClaw]]、[[Hermes-Agent]]、[[nanobot]]、[[Octop]] |
-| Agent 电脑 / 工作台 | 给每个 agent 一台带桌面、浏览器和文件的隔离环境 | [[Memoh]]、[[Rakazo]]、[[OpenMausBot]]、[[Maka]]、[[Goose]]、[[OpenHands]] |
+| 个人助手 / 网关 | 自己跑一个入口，把助手接到聊天渠道、文件和工具上 | [[OpenClaw]]、[[Hermes-Agent]]、[[nanobot]]、[[NanoClaw]]、[[Octop]] |
+| Agent 电脑 / 工作台 | 给每个 agent 一台带桌面、浏览器和文件的隔离环境 | [[Memoh]]、[[Rakazo]]、[[OpenMausBot]]、[[OpenBot]]、[[Maka]]、[[Goose]]、[[OpenHands]] |
 | 会话控制面 | 调度已经在跑的编码 CLI，共享会话、差异和权限 | [[Lody]]、[[Paseo]]、[[Herdr]]、[[t3code]]、[[Omnigent]] |
 | 团队房间 | 人和 agent 作为成员待在同一套频道或房间里 | [[Buzz]] |
 | 看板 / 派活 | 建任务、分给某个 agent、看进度、等人来评审；自己通常不写代码 | [[Multica]]、[[Agent-Orchestrator]]、[[Paperclip]] |
@@ -47,4 +47,7 @@ publish: true
 - **共享会话**：多个人进入同一个 agent 对话交替下指令。这和「一个团队里每人各有一个助手」不是一回事。
 - **自托管**：能在自己的机器上跑起来，不等于官方把可拿去当商品卖的多租户云也开了源。
 
-相关项目卡见上表。入口：[[indexes/开源项目]]。
+相关项目卡见上表。
+还有两类不要和上面的开源项目卡混着比。一是源码可见但不是 OSI 开源的产品，例如 Agor（BUSL-1.1），可以看形态，不能按开源内核来用。二是形态很像带桌面的个人 agent、但对话或云层仍依赖闭源服务的模板，开源对照时应把这一层写清楚，再去看 [[Rakazo]]、[[OpenMausBot]]、[[Memoh]] 这类能自托管的底座。
+
+入口：[[indexes/开源项目]]。
