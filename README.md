@@ -1,6 +1,6 @@
 # duolan-wiki
 
-duolan 的公开个人知识库。本地用 Obsidian 写，这个仓库是唯一的内容来源。
+duolan-wiki 是一套公开的个人知识库。本地用 Obsidian 写，这个仓库是唯一的内容来源。
 
 ## 技术栈
 
@@ -11,11 +11,14 @@ duolan 的公开个人知识库。本地用 Obsidian 写，这个仓库是唯一
 ## 目录
 
 ```
-content/index.md    首页
-content/notes/      自己写的笔记
-content/sources/    摘录、引用和外部资料
-content/indexes/    主题索引和 MOC
-private/            日记和不宜公开的内容（已加入 .gitignore，不提交、不发布）
+content/index.md         首页
+content/notes/           按主题分类的笔记
+  概念/ 开源项目/ agent工程/ skills/
+  rag/ 企业知识/ 论文/ 趋势/
+content/sources/         摘录、引用和外部资料
+content/indexes/         主题索引和 MOC
+templates/               笔记模板（不进入站点）
+private/                 日记、未脱敏草稿和不宜公开的内容（已加入 .gitignore）
 ```
 
 ## 开始使用
@@ -39,7 +42,7 @@ private/            日记和不宜公开的内容（已加入 .gitignore，不�
 
 日记请写在 `private/`。这个目录已在 `.gitignore` 中，克隆后如果不存在，自己建一个即可。
 
-每篇公开笔记请带上 YAML frontmatter（`title`、`tags`、`date`、`publish: true`），并用 wikilink 互链。详细约定见 `content/index.md` 和 `AGENTS.md`。
+每篇公开笔记请带上 YAML frontmatter（`title`、`type`、`tags`、`date`、`publish: true`），并用 wikilink 互链。写入前必须按 `AGENTS.md` 里的脱敏规则检查。详细约定见 `content/index.md` 和 `AGENTS.md`。模板在 `templates/`。
 
 ## 以后若要发布网站
 

@@ -8,6 +8,7 @@ configuration:
   locale: zh-CN
   # 占位地址。站点发布暂缓，以后部署时再改成真实地址（不要带 https://）
   baseUrl: example.com
+  # Quartz 只扫描 content/。templates/ 在仓库根目录，本列表同时排除 content/templates（若被误放进去）。
   ignorePatterns:
     - private
     - templates
