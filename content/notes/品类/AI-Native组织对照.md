@@ -5,7 +5,7 @@ tags:
   - 品类
   - 综述
 date: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-26
 status: evergreen
 source_bot: 监控 · AI Native 组织
 sources:
@@ -32,5 +32,7 @@ publish: true
 开源侧，[[Buzz]] 是人和 agent 同处的团队房间，中继可自托管；[[Cumora]] 把人和 agent 写成平级成员，还带看板和日历，前后端都可以自托管；[[Omnigent]] 强调会话分享和共驾；[[Lody]] 能打开同一个编码会话，但跨设备同步主要走官方云；[[Paperclip]]、[[HumanLayer]]、[[Multica]]、[[Agent-Orchestrator]]、[[OpenHands]] 的团队能力，各自落在管理、审批、派活或编码云上。
 
 闭源或非 OSI 许可的产品，也可以对这几项能力，但不要写成开源替代。只能托管使用的团队编码环境，公开产品里常见的有 Dust、Factory、Devin、Amp、Slack Code 等；还有源码可见但使用 Functional Source License 一类条款的房间产品，只能看形态，不能按开源内核来用。比较时只并列能力，不要把「能自托管的房间」和「只能租用的云编码电脑」写成同一个东西。
+
+派活和审阅这两层还有两个补充样本：[[LoopForge]] 把沙箱、角色和人工审批关卡做成可复用的交付流程；[[Plannotator]] 让人在浏览器里批注 agent 的计划和改动，再把意见回传。面向公司的自托管 agent 平台可看 [[AgenticOS]]。
 
 入口：[[indexes/品类]]。

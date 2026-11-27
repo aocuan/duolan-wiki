@@ -12,6 +12,7 @@ publish: true
 
 - [[决策模型检索]]
 - [[RAG与检索手段]]
+- [[Agentic搜索]]
 
 ## 论文
 
@@ -19,12 +20,17 @@ publish: true
 - [[RAW-RAG]]
 - [[Memory-Tax]]
 - [[Harness-Engineering]]
+- [[Context-as-Infrastructure]]
+- [[Search-When-Needed]]
 
 ## 相邻
 
 - [[企业知识库开源选型]]
 - [[Agent记忆与聊天记录工具]]
 - [[LightRAG]]
+- [[PageIndex]]
+- [[文档解析工具对照]]
+- [[Agent知识库项目地图]]
 - [[Harness]]
 
-按期补充写在 [[notes/趋势/index|趋势]]。回到 [[indexes/index|索引]]。
+按期补充写在 [[notes/趋势/index|趋势]]，例如 [[2026-W46-RAG]]、[[2026-W47-RAG]]。回到 [[indexes/index|索引]]。

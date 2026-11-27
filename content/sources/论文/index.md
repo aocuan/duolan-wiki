@@ -18,5 +18,12 @@ publish: true
 - [EvoOntology](https://arxiv.org/abs/2609.15779)
 - [ContrAgent](https://arxiv.org/abs/2609.18128)
 - [LightRAG](https://arxiv.org/abs/2410.05779)
+- [Context as Infrastructure](https://arxiv.org/abs/2610.41172)
+- [Search When Needed, Proceed When Reliable](https://arxiv.org/abs/2610.41738)
+- [Pi-Serini](https://arxiv.org/abs/2605.10848)
+- [Direct Corpus Interaction](https://arxiv.org/abs/2605.05242)
+- [Is Grep All You Need?](https://arxiv.org/abs/2605.15184)
+- [Search-R1](https://arxiv.org/abs/2503.09516)
+- [Hindsight](https://arxiv.org/abs/2512.12818)
 
 回到 [[sources/index|来源]]。

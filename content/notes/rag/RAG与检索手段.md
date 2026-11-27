@@ -6,7 +6,7 @@ tags:
   - 检索
   - 综述
 date: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-26
 status: evergreen
 source_bot: 监控 · RAG 检索趋势
 sources:
@@ -68,5 +68,7 @@ RAG 没有消失，但「切块 → 向量 → top-k」已经不是讨论中心�
 - [Multi-Vector Embedding Models with Sentence Transformers](https://huggingface.co/blog/multi-vector-encoder)
 - [How Jev can help improve the efficiency of RAG pipelines](https://www.thoughtworks.com/en-us/insights/blog/generative-ai/how-jev-can-help-improve-the-efficiency-of-rag-pipelines)（Thoughtworks）
 - [jev-reranker](https://huggingface.co/blog/hotchpotch/introducing-jev-reranker)
+
+概念拆解见 [[Agentic搜索]]；相关论文笔记见 [[Context-as-Infrastructure]]、[[Search-When-Needed]]。按周补充见 [[2026-W46-RAG]]、[[2026-W47-RAG]]。
 
 后续的按期补充，适合写进 `notes/趋势/`，不要覆盖这篇的主判断，除非大方向已经变了。相关入口：[[indexes/RAG检索]]。

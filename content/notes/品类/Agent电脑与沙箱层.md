@@ -5,7 +5,7 @@ tags:
   - 品类
   - 综述
 date: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-26
 status: evergreen
 source_bot: 研究 · 开源 Agent 项目
 sources:
@@ -34,5 +34,7 @@ publish: true
 - 要给同事每人一台写代码的远程电脑：看开发工作区产品，而不是 agent 机房。
 - 不要把「能 `docker run` 起来」理解成已经有企业工单和稳定服务等级。镜像层通常更年轻，控制面也还有大量测试版。
 - 有集群、自己做平台时，再用调度层把同一份镜像管起来。不要从调度对象直接开始给同事用。
+
+给 agent 的浏览器和桌面工具（不是整台电脑，而是让 agent 一步步操作的命令行）见 [[agent-browser]] 和 [[chrome-devtools-mcp]]。
 
 相关项目卡见上文。总入口：[[indexes/品类]]。

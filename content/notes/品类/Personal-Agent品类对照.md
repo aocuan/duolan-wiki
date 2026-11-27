@@ -5,7 +5,7 @@ tags:
   - 开源项目
   - 综述
 date: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-26
 status: evergreen
 source_bot: 研究 · 开源 Agent 项目
 sources:
@@ -49,5 +49,7 @@ publish: true
 
 相关项目卡见上表。
 还有两类不要和上面的开源项目卡混着比。一是源码可见但不是 OSI 开源的产品，例如 Agor（BUSL-1.1），可以看形态，不能按开源内核来用。二是形态很像带桌面的个人 agent、但对话或云层仍依赖闭源服务的模板，开源对照时应把这一层写清楚，再去看 [[Rakazo]]、[[OpenMausBot]]、[[Memoh]] 这类能自托管的底座。
+
+2026 年 11 月出现的 [[nod]] 也属于「个人助手 + 自带电脑」这一形态，可以和 [[OpenMausBot]] 对照看。
 
 入口：[[indexes/开源项目]]。

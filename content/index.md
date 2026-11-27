@@ -15,6 +15,12 @@ publish: true
 - [[sources/index|来源]]：摘录、引用和外部资料
 - [[indexes/index|索引]]：主题索引和 MOC
 
+## 从这里开始
+
+- 想分清产品在哪一层：[[indexes/品类]]，例如 [[Personal-Agent品类对照]]、[[Agent知识库项目地图]]、[[文档解析工具对照]]
+- 想查某个开源项目：[[indexes/开源项目]]
+- 想看检索和记忆的变化：[[indexes/RAG检索]]、[[notes/趋势/index|趋势]]
+
 日记、未脱敏草稿和不宜公开的内容放在仓库根目录的 `private/`，不要放进 `content/`。笔记模板在仓库根目录的 `templates/`，不会被站点收录。
 
 ## 写作约定

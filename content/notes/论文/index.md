@@ -17,5 +17,7 @@ publish: true
 - [[Symbolic-Separation]]
 - [[EvoOntology]]
 - [[ContrAgent]]
+- [[Context-as-Infrastructure]]
+- [[Search-When-Needed]]
 
 总入口见 [[indexes/论文]]。

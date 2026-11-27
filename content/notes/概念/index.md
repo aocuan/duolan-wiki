@@ -16,5 +16,6 @@ publish: true
 - [[基础本体]]
 - [[决策模型检索]]
 - [[LLM知识库]]
+- [[Agentic搜索]]
 
 主题入口见 [[indexes/概念]]。
