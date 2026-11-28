@@ -25,5 +25,6 @@ publish: true
 - [Is Grep All You Need?](https://arxiv.org/abs/2605.15184)
 - [Search-R1](https://arxiv.org/abs/2503.09516)
 - [Hindsight](https://arxiv.org/abs/2512.12818)
+- [AutoOntologyBench](https://arxiv.org/abs/2611.27734)
 
 回到 [[sources/index|来源]]。

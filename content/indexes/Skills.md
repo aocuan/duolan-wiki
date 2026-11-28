@@ -3,6 +3,7 @@ title: 索引 · Skills
 tags:
   - index
 date: 2026-11-17
+updated: 2026-11-27
 publish: true
 ---
 
@@ -16,11 +17,13 @@ Agent Skills 的定义、取舍、前端设计串法和相关论文。
 - [[Harness]]
 - [[agent-skills]]
 - [[obsidian-skills]]
+- [[Skill供应链风险]]
 
 ## 设计与论文
 
 - [[前端设计Skills怎么串]]
 - [[写作与选题Skills]]
+- [[Skill内置Bug回报流程]]
 - [[WikiSkill]]
 
 相邻主题：[[indexes/Agent工程]]、[[indexes/论文]]。回到 [[indexes/index|索引]]。

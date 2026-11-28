@@ -3,6 +3,7 @@ title: Skills 笔记
 tags:
   - index
 date: 2026-11-17
+updated: 2026-11-27
 publish: true
 ---
 
@@ -12,6 +13,8 @@ Agent Skills 的用法、取舍和设计类技能如何串起来。
 - [[薄技能与重框架]]
 - [[前端设计Skills怎么串]]
 - [[写作与选题Skills]]
+- [[Skill供应链风险]]
+- [[Skill内置Bug回报流程]]
 - [[WikiSkill]]
 
 总入口见 [[indexes/Skills]]。

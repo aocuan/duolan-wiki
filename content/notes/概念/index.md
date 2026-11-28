@@ -3,6 +3,7 @@ title: 概念笔记
 tags:
   - index
 date: 2026-11-17
+updated: 2026-11-27
 publish: true
 ---
 
@@ -17,5 +18,6 @@ publish: true
 - [[决策模型检索]]
 - [[LLM知识库]]
 - [[Agentic搜索]]
+- [[输出权限继承]]
 
 主题入口见 [[indexes/概念]]。

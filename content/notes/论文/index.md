@@ -3,6 +3,7 @@ title: 论文笔记目录
 tags:
   - index
 date: 2026-11-17
+updated: 2026-11-27
 publish: true
 ---
 
@@ -19,5 +20,6 @@ publish: true
 - [[ContrAgent]]
 - [[Context-as-Infrastructure]]
 - [[Search-When-Needed]]
+- [[AutoOntologyBench]]
 
 总入口见 [[indexes/论文]]。
